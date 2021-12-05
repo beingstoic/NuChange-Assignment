@@ -53,6 +53,18 @@
 .custom-button:hover {
   cursor: pointer;
 }
+.disabled {
+  opacity: 0.8;
+  cursor: not-allowed;
+}
+
+.oos {
+  color: red;
+  font-size: 1.2em;
+}
+.hidden {
+  display: none;
+}
 
 @media only screen and (max-device-width: 540px) {
   .collection-item {
