@@ -10,7 +10,7 @@ const Shop = () => {
             <div className="category-bar">
                 <h1>Select Category</h1>
                 <select  value={category} onChange={(e)=> setCategory(e.target.value)}>
-                    <option value="All" selected>All</option>
+                    <option value="All" >All</option>
                     <option value="Hats">Hats</option>
                     <option value="Sneakers">Sneakers</option>
                     <option value="Jackets">Jackets</option>
